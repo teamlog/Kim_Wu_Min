@@ -1,0 +1,44 @@
+/*
+코드업 1504
+
+하나의 정수 N을 입력받아 다음과 같이 지그재그로 출력하시오.
+
+N이 3이라면,
+
+1 6 7
+
+2 5 8
+
+3 4 9
+*/
+#include <stdio.h>
+
+int main(void) 
+{
+	int n;
+	int arr[50][50];
+	int i, j;
+	int a = 1;
+
+	scanf_s("%d", &n);
+
+	for (i = 0; i < n; i++) 
+	{
+		for (j = 0; j < n; j++) 
+		{
+			arr[j][i] = a;
+			a++;
+		}
+	}
+
+	for (i = 0; i < n; i++) 
+	{
+		for (j = 0; j < n; j++) 
+		{
+			printf("%d ", arr[i][j]);
+		}
+		printf("\n");
+	}
+
+	return 0;
+}
