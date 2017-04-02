@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\hyungmin\desktop\새 폴더\코드업\1501 2차원 배열 채우기1\1501 2차원 배열 채우기1\main.c(32): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  1501 2차원 배열 채우기1.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1501 2차원 배열 채우기1\Debug\1501 2차원 배열 채우기1.exe
+  1501 2차원 배열 채우기1.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1501 2차원 배열 채우기1\Debug\1501 2차원 배열 채우기1.pdb (Partial PDB)

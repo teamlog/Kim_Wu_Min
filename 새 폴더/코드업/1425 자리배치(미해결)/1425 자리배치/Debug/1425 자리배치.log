@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\hyungmin\desktop\새 폴더\코드업\1425 자리배치(미해결)\1425 자리배치\main.c(53): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  1425 자리배치.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1425 자리배치(미해결)\Debug\1425 자리배치.exe
+  1425 자리배치.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1425 자리배치(미해결)\Debug\1425 자리배치.pdb (Partial PDB)

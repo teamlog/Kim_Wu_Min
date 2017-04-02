@@ -1,0 +1,6 @@
+﻿  main.c
+c:\users\hyungmin\desktop\새 폴더\백준\2444 별찍기-7\2444 별찍기-7\main.c(23): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\hyungmin\desktop\새 폴더\백준\2444 별찍기-7\2444 별찍기-7\main.c(5): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+c:\users\hyungmin\desktop\새 폴더\백준\2444 별찍기-7\2444 별찍기-7\main.c(6): warning C4101: 'h' :참조되지 않은 지역 변수입니다.
+  2444 별찍기-7.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2444 별찍기-7\Debug\2444 별찍기-7.exe
+  2444 별찍기-7.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2444 별찍기-7\Debug\2444 별찍기-7.pdb (Partial PDB)

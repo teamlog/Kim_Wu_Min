@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\hyungmin\desktop\새 폴더\백준\2953 나는 요리사다\2953 나는 요리사다\main.c(32): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  2953 나는 요리사다.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2953 나는 요리사다\Debug\2953 나는 요리사다.exe
+  2953 나는 요리사다.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2953 나는 요리사다\Debug\2953 나는 요리사다.pdb (Partial PDB)

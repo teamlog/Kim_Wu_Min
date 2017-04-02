@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\hyungmin\desktop\새 폴더\백준\2442 별찍기-5\2442 별찍기-5\main.c(23): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  2442 별찍기-5.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2442 별찍기-5\Debug\2442 별찍기-5.exe
+  2442 별찍기-5.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\백준\2442 별찍기-5\Debug\2442 별찍기-5.pdb (Partial PDB)
