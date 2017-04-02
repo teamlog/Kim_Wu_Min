@@ -1,4 +1,0 @@
-﻿  main.c
-c:\users\hyungmin\desktop\새 폴더\코드업\1602 절대값 함수\1602 절대값 함수\main.c(18): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  1602 절대값 함수.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1602 절대값 함수\Debug\1602 절대값 함수.exe
-  1602 절대값 함수.vcxproj -> C:\Users\Hyungmin\Desktop\새 폴더\코드업\1602 절대값 함수\Debug\1602 절대값 함수.pdb (Partial PDB)
