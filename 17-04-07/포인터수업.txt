@@ -1,0 +1,73 @@
+/*
+	Tema Log 수업<포인터>
+*/
+//포인터 예제
+/*
+#include <stdio.h>
+
+int main(void)
+{
+	int *numPtr;
+	int num1 = 10;
+
+	numPtr=&num1;
+	
+	printf("%p\n",numPtr);
+	printf("%p\n",&num1);
+
+
+	return 0;
+}*/
+
+/*
+//포인터를 이용한 스왑
+#include <stdio.h>
+
+void f(int *x,int *y)
+{
+	int temp;
+	temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
+int main(void)
+{
+	int a,b;
+	int temp;
+
+	scanf("%d %d",&a, &b);
+	
+	printf("%d %d\n",a,b);
+	f(&a, &b);
+	printf("%d %d",a,b);
+
+	return 0;
+}
+*/
+
+//코드업 1610 서브스트링
+#include <stdio.h>
+
+char *substr(char *str,int start,int count)
+{
+	int i,j,k;
+	for(i=start;i<start+count;i++)
+	{
+		printf("%c",str[i]);
+	}
+	return 0;
+}
+
+int main(void)
+{
+	char str[100];
+	int start, count;
+
+	scanf("%s", str);
+	scanf("%d %d",&start, &count);
+
+	substr(str,start,count);
+
+	return 0;
+}
