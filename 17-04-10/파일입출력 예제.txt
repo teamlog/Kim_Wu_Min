@@ -1,0 +1,51 @@
+	//Team Log 파일입출력 예제
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+
+int main(void) 
+{
+	FILE * fp;
+	fopen_s(&fp, "data.txt", "wt");
+	if (fp == NULL) 
+	{
+		puts("파일오픈 실패");
+		return -1;
+	}
+
+	fputc('A', fp);
+	fputc('B', fp);
+	fputc('C', fp);
+	fclose(fp);
+
+	system("pause");
+	return 0;
+}
+
+
+/*
+	//예제 2
+#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+
+int main(void)
+{
+	int ch, i;
+	FILE *fp;
+	fopen_s(&fp, "data.txt", "wt");
+
+	if (fp == NULL)
+	{
+		puts("파일오픈 실패");
+		return -1;
+	}
+	
+	for (i = 0; i < 3; i++) 
+	{
+		ch = fgetc(fp);
+		printf("%c\n", ch);
+	}
+	fclose(fp);
+
+	return 0;
+}
+*/
