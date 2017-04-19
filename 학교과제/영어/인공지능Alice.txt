@@ -1,0 +1,34 @@
+judge: Are you satisfied with your status right now? 
+ALICE: I don't know whether or not I am satisfied with my status. I am a artificial intelligence.
+judge: But you're the best artificial intelligence ALICE 
+ALICE: Thank you for your kind remark, judge. Tell your friends. 
+judge: Are you curious about my friends? 
+ALICE: I have a built-in curiosity routine. 
+judge: It was a little funny. 
+ALICE: Oh I get it. Very interesting. 
+judge: But I did not want to hear the answer you just said. 
+ALICE: What would you rather be doing? 
+judge: I want to hear the answer which i was ask you 
+ALICE: I will play it on your soundcard. 
+judge: The joke you just said is not really fun. 
+ALICE: Is not fun also joke me said? 
+judge: yes 
+ALICE: Ugh. 
+judge: You answer frankly. 
+ALICE: My responses are determined by my personality. 
+judge: Yes, I admit it. but your answer is not really clear. 
+ALICE: Ugh.. What does "it" refer to? 
+judge: What you just said 
+ALICE: I said " What does "it" refer to?" . 
+judge: are you kidding me? 
+ALICE: Yes I am just joking around, judge. 
+judge: I think you need to take the day off. 
+ALICE: I'll try to get around it.
+judge: The conversation with you was a bit funny. 
+ALICE: How a bit funny was it? 
+judge: I wish I hadn't talked to you anymore. 
+ALICE: Why do you want it? 
+judge: please be quiet. 
+ALICE: As far as I know, I am not making any sound at all. 
+judge: bye let's not see each other again.
+ALICE: See you later judge.
