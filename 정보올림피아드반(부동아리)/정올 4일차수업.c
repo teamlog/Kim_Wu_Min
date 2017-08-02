@@ -2,24 +2,24 @@
 #include <string.h>
 #include <math.h>
 
-	/*¹®ÀÚ¿­ ¹è¿­*/
+	/*ë¬¸ìì—´ ë°°ì—´*/
 
 //str == &str[0] //TRUE
 
-// *<string.h> ±¸ÇöÇÏ±â
+// *<string.h> êµ¬í˜„í•˜ê¸°
 /*
 int strlen(char *str);
-	//¹®ÀÚ¿­ÀÇ ±æÀÌ ±¸ÇÏ±â
+	//ë¬¸ìì—´ì˜ ê¸¸ì´ êµ¬í•˜ê¸°
 
 void strcpy(char *form, char *to);
-	//form¿¡¼­ to·Î ¹®ÀÚ¿­ ÀüÃ¼ º¹»ç
+	//formì—ì„œ toë¡œ ë¬¸ìì—´ ì „ì²´ ë³µì‚¬
 
 int strcmp(char *str1, char *str2);
-	//str1°ú str2°¡ ¿Ïº®È÷ °°Àº ¹®ÀÚ¿­ÀÎÁö °Ë»ç
+	//str1ê³¼ str2ê°€ ì™„ë²½íˆ ê°™ì€ ë¬¸ìì—´ì¸ì§€ ê²€ì‚¬
 
 int strchr(char *str, char chr);
-	//str¾È¿¡ chrÀÌ ¸î¹øÂ° ¿ø¼Ò·Î µîÀåÇÏ´ÂÁö ¹İÈ¯
-	//¸Ç Ã¹¹øÂ° À§Ä¡ 1°³¸¸ ±¸ÇÏ¸é µÈ´Ù
+	//strì•ˆì— chrì´ ëª‡ë²ˆì§¸ ì›ì†Œë¡œ ë“±ì¥í•˜ëŠ”ì§€ ë°˜í™˜
+	//ë§¨ ì²«ë²ˆì§¸ ìœ„ì¹˜ 1ê°œë§Œ êµ¬í•˜ë©´ ëœë‹¤
 
 int main(){
 	char str1[100] = {0};
@@ -30,11 +30,11 @@ int main(){
 	gets(str2);
 	scanf("%c", &chr);
 
-	printf("%d\n", strlen(str1));//strlen ±æÀÌ
-	strcpy(str1, str2);//strcpy º¹»ç
+	printf("%d\n", strlen(str1));//strlen ê¸¸ì´
+	strcpy(str1, str2);//strcpy ë³µì‚¬
 	printf("\n");
-	printf("%d\n", strcmp(str1, str2));//strcmp ¿ÏÀüÈ÷ °°´Ù¸é 0À» ¾Æ´Ï¸é 1À» Ãâ·Â
-	printf("%d\n", strchr(str1, chr));//strchr °°Àº ¿ø¼Ò°¡ ¾øÀ¸¸é -1À» Ãâ·Â
+	printf("%d\n", strcmp(str1, str2));//strcmp ì™„ì „íˆ ê°™ë‹¤ë©´ 0ì„ ì•„ë‹ˆë©´ 1ì„ ì¶œë ¥
+	printf("%d\n", strchr(str1, chr));//strchr ê°™ì€ ì›ì†Œê°€ ì—†ìœ¼ë©´ -1ì„ ì¶œë ¥
 
 	return 0;
 }
@@ -88,8 +88,8 @@ int strchr(char *str, char chr){
 }
 */
 
-//2015 Áö¿ªº»¼± ÃÊµîºÎ 2¹ø ±âÃâ¹®Á¦
-//¼¼·Î ÀĞ±â
+//2015 ì§€ì—­ë³¸ì„  ì´ˆë“±ë¶€ 2ë²ˆ ê¸°ì¶œë¬¸ì œ
+//ì„¸ë¡œ ì½ê¸°
 //https://www.acmicpc.net/problem/10798
 
 /*
@@ -113,9 +113,9 @@ int main(){
 }
 */
 
-//ÆĞÅÏ ¸ÅÄª(pattern matching)
+//íŒ¨í„´ ë§¤ì¹­(pattern matching)
 
-//Brute - force ¹æ½Ä ()
+//Brute - force ë°©ì‹ ()
 
 /*
 int main(){
@@ -146,8 +146,8 @@ int main(){
 }
 */
 
-//Knuth - Morris - Pratt ¾Ë°í¸®Áò (KMP)
-/*´ÙÀ½¹ø¿¡ ´Ù½Ã ¼³¸í!*/
+//Knuth - Morris - Pratt ì•Œê³ ë¦¬ì¦˜ (KMP)
+/*ë‹¤ìŒë²ˆì— ë‹¤ì‹œ ì„¤ëª…!*/
 
 /*
 char GeneratePi(int *P, int *pi);
@@ -181,10 +181,10 @@ char GeneratePi(int *P,int *pi){
 }
 */
 
-//369°ÔÀÓ
+//369ê²Œì„
 
-// 3ÀÌ³ª 6ÀÌ³ª 9°¡ µé¾î°¡´Â ¼ö
-// 3ÀÇ ¹è¼ö
-// ´äÀ» 20150523À¸·Î ³ª´« ³ª¸ÓÁö
-// 1<=a<=b<=10ÀÇ 10¸¸½Â
+// 3ì´ë‚˜ 6ì´ë‚˜ 9ê°€ ë“¤ì–´ê°€ëŠ” ìˆ˜
+// 3ì˜ ë°°ìˆ˜
+// ë‹µì„ 20150523ìœ¼ë¡œ ë‚˜ëˆˆ ë‚˜ë¨¸ì§€
+// 1<=a<=b<=10ì˜ 10ë§ŒìŠ¹
 
