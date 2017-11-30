@@ -13,3 +13,4 @@ task main()
 		SensorValue[t4]==1?motor[motorD]=20:motor[motorD]=-20;
 	}
 }
+
